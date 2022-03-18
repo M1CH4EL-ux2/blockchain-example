@@ -15,3 +15,7 @@ Esta primeira classe cria um block usando um indice, um hash previo, um dado ini
 Esta classe vai criando a corrente usando a classe anterior, assim, ela criará uma lista de blocos e irá fazer sua validação usando a função isValid, a função getLastHash busca o ultimo valor hash para comparar com o atual, já a função addBlock faz a adição de um bloco usando um dado passado por parametro.
 
 <img src='./images/Blockchain.png' />
+
+### Exemplo de resultado
+
+<img src='./images/result.png' />

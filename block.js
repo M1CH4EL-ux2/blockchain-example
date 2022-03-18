@@ -18,8 +18,8 @@ class Block {
     mine() {
         this.hash = this.generateHash()
 
-        while(!(/^08$/.test(this.hash.substring(0, this.difficulty)))) {
-            this.nonce++
+        while ((/^08$/.test(this.hash.substring(0, this.difficulty)))) {
+            this.nonce += 1
             this.hash = this.generateHash()
         }
     }
